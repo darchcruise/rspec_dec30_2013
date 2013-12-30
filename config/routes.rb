@@ -1,4 +1,14 @@
 Dec30::Application.routes.draw do
+  root :to => 'stores#index'
+
+  get "stores/index"
+
+  get "stores/show"
+
+  get "stores/new"
+
+  get "stores/edit"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
